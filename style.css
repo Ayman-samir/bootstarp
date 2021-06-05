@@ -1,0 +1,580 @@
+
+
+
+
+/* override navbar*/
+.navbar{
+    min-height:68px ;
+}
+
+/*active link HOME*/
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active,
+ .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link 
+  {
+    color:#E41B17;
+   
+  }
+/*active link HOME*/
+
+/* NAV LINK  LI > a*/
+.navbar-dark .navbar-nav .nav-link 
+{
+  color:#bbb;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size: 16px;
+
+}
+
+
+
+
+/* brand name */
+.navbar-dark .navbar-brand{
+  color:#BBB;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.navbar-dark .navbar-brand span{
+  
+  color:#E41B17;
+}
+/* brand name */
+
+/*dropdown menu */
+.dropdown-menu{
+  background:#333;
+  border-top:3px solid#E41B17;;
+  min-width: 200px;
+  top: 52px;
+}
+
+/*dropdown item */
+.dropdown-item{
+  color:#fff;
+  transition:padding .5s;
+  padding:7px 20px;
+}
+
+.dropdown-item:hover{
+  background-color:#E41B17;;
+  padding-left:25px;
+  color:#fff
+}
+
+/*End Overrideing Bootstrap */
+.carousel-caption{
+  bottom: 150px;
+}
+
+/*.carousel-indicators li */
+
+.carousel-indicators li
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border:2px solid rgb(118, 150, 185)
+}
+
+.carousel-indicators .active
+{
+  width: 12x;
+  height: 12px;
+  background: #E41B17;
+  
+}
+.carousel-caption
+{
+  background:rgba(0,0,0,.6)
+}
+/* carousel-control-prev */
+.carousel-control-prev-icon
+{
+  color:#000
+}
+
+.about{
+  padding-top: 60px;
+  padding-bottom:60px;
+}
+
+.about .lead
+{
+ color:#888;
+ font-size:25px;
+ margin-top:15px
+}
+
+.about h1{
+  font-weight:bold ;
+}
+.about h1 span
+{
+  color:#E41B17
+}
+
+.features{
+  background:#EEE;
+  padding-top:50px;
+  padding-bottom:50px
+}
+.features .feat 
+{
+ line-height:2em ;
+ margin-bottom:40px
+}
+
+.features .feat h3
+{
+  margin-bottom:15px
+}
+
+.features .feat p
+{
+  color:#777
+}
+
+/* End Features*/
+
+/*Start Testimonials */
+.testimonials
+{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.testimonials h1
+{
+  font-weight:bold ;
+  margin-bottom:20px ;
+}
+
+.testimonials .lead
+{
+  line-height:2em;
+  margin-bottom:10px  ;
+}
+
+.testimonials span
+{
+font-size:18px;
+font-weight:bold ;
+color:#E41B17
+}
+
+ .testimonials .carousel-inner
+{
+  min-height:160px ;
+}
+
+.testimonials .carousel-indicators
+{
+  position: static;
+  padding-top:15px
+}
+
+.testimonials  .carousel-indicators li
+{
+  text-indent:0 ;
+  width:70PX ;
+  height:70PX;
+ overflow: hidden;
+  opacity: 0.2; 
+  margin:8px;
+ -webkit-transition: all 2s ease;
+ -moz-transition:all 2s ease;
+ -o-transition:all 2s ease ;
+ transition:all 2s ease ;
+}
+.testimonials .carousel-indicators li.active
+{
+  opacity: 1;
+  border:2px solid#E41B17
+
+}
+.testimonials  .carousel-indicators li img
+{
+ max-width:100% ; 
+ max-height:100% ;
+}
+
+/*End Testimonials */
+
+
+/*<!--Start price section--> */
+
+.price-table
+{
+  background:#DDD;
+  padding-bottom: 20px;
+}
+
+
+.price-table h1
+{
+ text-align: center;
+ margin-bottom:50px ;
+ padding-top:50px
+}
+
+.price-table .price-box
+{
+  border:1px solid#ddd;
+  background: #fff;
+  text-align: center;
+  box-shadow:0 0 20px 0px rgba(0,0,0,.1); 
+  border:1px solid rgba(0,0,0,.1) ;
+  margin-bottom:20px;
+}
+
+.price-table .price-box h2
+{
+  margin:5px 0 15px
+}
+
+.price-table .price-box p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #666;
+  width:100px;
+  height: 100px;
+  border-radius:50% ;
+  background:#DDD;
+  line-height: 100px;
+  
+  -webkit-transition-duration: .7s ;
+  -Moz-transition-duration: .7s ;
+  -o-transition-duration: .7s ;
+  transition-duration: .7s ;
+  
+}
+
+.price-table .price-box:hover p
+{
+  -webkit-transform:scale(1.1,1.1)  rotate(360deg) ;
+  -Moz-transform:scale(1.1,1.1) rotate(360deg) ;
+  -o-transform:scale(1.1,1.1) rotate(360deg) ;
+  transform:scale(1.1,1.1) rotate(360deg) ;
+}
+
+
+
+
+
+.price-table .price-box ul
+{
+  line-height: 250%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-table .price-box button
+{
+  margin-bottom:15px ;
+}
+
+/*<!--End price section--> */
+
+/* start our new team */
+.our-team
+{
+background:url(images/background1.webp) no-repeat center fixed;
+min-height: 600px;
+}
+
+.our-team .team
+{
+  background:rgba(0,0,0,.7);
+  min-height:600px;
+  color:#fff;
+  padding-bottom: 50px;
+
+}
+
+.our-team .team  h1
+{
+  padding-top:50px
+}
+
+.our-team .team .person
+{
+ 
+  padding-top:55px;
+  
+}
+
+.our-team .team .person img
+{
+  
+  width: 150px;
+}
+
+.our-team .team .person h4
+{
+  padding-top:20px
+}
+
+.our-team .team .person p
+{
+  font-size: 14px;
+}
+
+
+/* End our new team */
+
+/* Start subcribe */
+
+.subcribe
+{
+  background:#DDD;
+  padding-bottom:40px;
+  padding-top:30px
+}
+
+.subcribe h2
+{
+  padding-top:20px;
+  color:#888;
+  margin-bottom:20px
+}
+
+.subcribe p
+{
+  color:#333;
+  font-weight: bold;
+  margin-bottom:20px
+}
+
+.subcribe  .form-inline
+{
+  display: inline-flex;
+}
+
+
+.subcribe  .form-control
+
+{
+ border-radius:0;
+ width: 350px;
+} 
+
+.subcribe button
+{
+  border-radius: 0;
+ 
+}
+/* End subcribe */
+
+/* Start Statistics section*/
+
+.Statistics
+{
+  background:url(images/background2.webp) no-repeat center center fixed;
+  min-height: 400px;
+ 
+}
+
+.Statistics .data
+{
+  background:rgba(0,0,0,.7);
+  min-height: 400px;
+  padding-bottom: 60px;
+
+  
+
+}
+
+.Statistics h2
+{
+  padding-top:50px;
+  margin-bottom:40px;
+  color:#B6B5B5
+
+}
+
+.Statistics i 
+{
+  color:#B6B5B5;
+  transition:colo 1.5s ease-in-out
+}
+.Statistics p
+{
+  color:#B6B5B5;
+  font-weight:800 ;
+  font-size:60px ;
+  max-width:100% ;
+  transition:color 1.5s ease-in-out
+}
+
+
+.Statistics span
+{
+  color:#B6B5B5;
+  display: block;
+  margin-top:-15px;
+  transition: 1.5s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.Statistics .stats:hover i , 
+.Statistics .stats:hover p 
+{
+  color:#fff
+}
+.Statistics .stats span:hover 
+{
+  color:#fff
+}
+
+/* End Statistics section*/
+
+/* Start skills section */
+
+.skills 
+{
+  margin-top:50px;
+  margin-bottom: 60px;
+}
+
+.skills h1
+{
+  padding-top:5px;
+  padding-bottom:50px
+}
+
+.skills .skill-progress .progress
+{
+  margin-top:15px;
+  max-width: 460px;
+  height: 36px;
+  margin-bottom:25px
+}
+
+.skills .skill-progress .progress .progress-bar
+{
+  text-align: left;
+  text-indent: 10px;
+  font-size:15px;
+  font-weight: bold;
+
+}
+
+/* End skills Section */
+
+/*contact-us*/
+
+.contact-us
+{
+  background:url(images/background3.webp) no-repeat center center fixed;
+  
+  min-height:450px;
+  
+}
+.contact-us .fildes
+{
+  background:rgba(0,0,0,.8);
+  background-size: cover;
+  min-height:450px;
+  padding-top:40px;
+  padding-bottom: 40px;
+  
+}
+
+
+.contact-us  i
+{
+  margin-top:50px;
+  color:#B6B5B5
+}
+
+.contact-us  h1
+{
+ 
+  color:#B6B5B5
+}
+.contact-us  p
+{
+  font-weight: bold;
+  font-size:20px;
+  color:#FFF
+}
+
+.contact-us  button
+{
+  margin-top:20px;
+  width: 100%;
+  font-weight:bold;
+  font-size:18px
+}
+
+/* start our-clinets */
+
+.our-clinets
+{
+  background:#DDD;
+  padding-top:10px;
+  padding-bottom:10px
+}
+
+.our-clinets img
+{
+  opacity: 0.4;
+}
+ .our-clinets img:hover
+ {
+   opacity: 1;
+ }
+
+ /* End clinents*/
+
+
+ /*Start Footter*/
+.footer
+{
+  padding-top:40px;
+  background:rgba(0,0,0,.95);
+  color:#fff;
+  
+
+}
+
+.footer h3
+{
+  margin-bottom:20px;
+  padding-bottom: 20px;
+}
+.footer ul li{
+  margin:7px 0;
+  color:#DDD;
+  font-size:15px
+} 
+
+.footer a
+{
+  
+  margin:0 3px;
+  color:#fff;
+  margin-top:16px;
+  display: inline-block;
+}
+
+
+ .footer .img-thumbnail
+{
+  display: inline-block;
+  margin-bottom:7spx
+}
+.copyright
+{
+  background:#666;
+  height:50px ;
+  line-height:50px;
+  color:#DDD;
+  font-size:20px;
+  margin-top:30px
+}
+ /*End footer */
